@@ -21,12 +21,11 @@ public class Method {
     }
 
     //Método sobrecarregado , é possivel ter mpetodos com o mesmo nome mas com diferente parâmetros
-    public diplay(int num) {
+    public void display(int num) {
         System.out.println("Numero inteiro" + num);
-
     }
 
-    public diplay(String text) {
+    public void display(String text) {
         System.out.println("Texto" + text);
     }
 
@@ -40,7 +39,7 @@ public class Method {
     //Método Recursivo,Um método recursivo é aquele que se chama dentro de si mesmo.
     public int factorial(int n) {
         if(n == 0){
-            return 1 
+            return 1;
         } else {
             return n * factorial(n-1);
         }

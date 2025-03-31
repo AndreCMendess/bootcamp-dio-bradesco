@@ -1,4 +1,4 @@
-public class TiposVariaveis {
+public class TypeVariable {
     
     byte a = 100; // Armazena valores entre -128 e 127
     short b = 32000; // Armazena valores entre -32.768 e 32.767
