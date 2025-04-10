@@ -2,33 +2,16 @@ package poo.model;
 
 import poo.util.CarType;
 
-public class Car {
-    private String model;
+public class Car extends Automobile implements Drivable{
+
     private CarType type;
-    private Person owner;
 
-    public Car (String model, CarType type, Person owner) {
-        this.model = model;
+    public Car(int VIN, String model, Person owner , CarType type) {
+        super(VIN, model, owner);
         this.type = type;
-        this.owner = owner;
-    }
-    
-    public String getModel() {
-        return model;
-    }
 
-    public void setModel(String model) {
-        this.model = model;
     }
-
-    public Person getOwner() {
-        return owner;
-    }
-
-    public void setOwner(Person owner) {
-        this.owner = owner;
-    }
-
+ 
     public CarType getType() {
         return type;
     }
@@ -36,10 +19,28 @@ public class Car {
     public void setType(CarType type) {
         this.type = type;
     }
+   
+  
 
-    public void displayCar() {
-        System.out.println("Modelo: " + model + ", Tipo: " + type + ", Dono: " + owner.getName());
+    @Override
+    public void getFuelType() {
+        System.out.println("Gasolina");   
+    }
 
+    @Override
+    public void accelerate() {
+        System.out.println("Carro acelerando");
+    }
+
+    @Override
+    public void brake() {
+        System.out.println("Carro diminuindo velocidade");
+    }
+
+    @Override
+    public String displayInfo() {
+        String info = "VIN: " + getVIN() + " Modelo: " + getModel() + " Dono: " + getOwner().getName() + " Tipo: " + getType();
+        return info;
     }
 
 
