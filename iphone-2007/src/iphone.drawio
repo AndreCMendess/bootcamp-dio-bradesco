@@ -1,0 +1,76 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36" version="26.2.12">
+  <diagram name="Página-1" id="oaQ8Kdic_Cb19ZT4QgDm">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Ifi-HL3AOGkv4EQX25BP-1" value="&lt;div&gt;&lt;span style=&quot;font-weight: 400;&quot;&gt;«interface»&lt;/span&gt;&lt;/div&gt;Ipod&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="10" width="170" height="110" as="geometry">
+            <mxRectangle x="50" y="10" width="100" height="60" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ifi-HL3AOGkv4EQX25BP-3" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="Ifi-HL3AOGkv4EQX25BP-1">
+          <mxGeometry y="40" width="170" as="geometry" />
+        </mxCell>
+        <mxCell id="Ifi-HL3AOGkv4EQX25BP-4" value="+ nextMusic(): void&lt;div&gt;+ previousMusic();&lt;br&gt;&lt;div&gt;&lt;div&gt;+ playMusic():void&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;+ pauseMusic():void&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="Ifi-HL3AOGkv4EQX25BP-1">
+          <mxGeometry y="40" width="170" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Ifi-HL3AOGkv4EQX25BP-18" value="&lt;span style=&quot;font-weight: 400;&quot;&gt;«interface»&lt;/span&gt;&lt;br style=&quot;font-weight: 400;&quot;&gt;&lt;b&gt;Telphone&lt;/b&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=37;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="253.5" y="10" width="160" height="148" as="geometry" />
+        </mxCell>
+        <mxCell id="Ifi-HL3AOGkv4EQX25BP-21" value="&lt;span style=&quot;text-align: center; text-wrap-mode: nowrap;&quot;&gt;+call(String number); void&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;text-align: center; text-wrap-mode: nowrap;&quot;&gt;+answer():void&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;text-align: center; text-wrap-mode: nowrap;&quot;&gt;+hangUp():void&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="Ifi-HL3AOGkv4EQX25BP-18">
+          <mxGeometry y="37" width="160" height="111" as="geometry" />
+        </mxCell>
+        <mxCell id="Ifi-HL3AOGkv4EQX25BP-22" value="&lt;span style=&quot;font-weight: 400;&quot;&gt;«interface»&lt;/span&gt;&lt;br style=&quot;font-weight: 400;&quot;&gt;Internet" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="10" width="160" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="Ifi-HL3AOGkv4EQX25BP-25" value="+ connect(): void&lt;div&gt;+ disconnect():void&lt;/div&gt;&lt;div&gt;+ isConnected():boolean&lt;/div&gt;&lt;div&gt;+ broswer(String url):void&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="Ifi-HL3AOGkv4EQX25BP-22">
+          <mxGeometry y="40" width="160" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="Ifi-HL3AOGkv4EQX25BP-26" value="Iphone2007" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="210" width="130" height="342" as="geometry" />
+        </mxCell>
+        <mxCell id="Ifi-HL3AOGkv4EQX25BP-27" value="- touchScren: boolean" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="Ifi-HL3AOGkv4EQX25BP-26">
+          <mxGeometry y="26" width="130" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Ifi-HL3AOGkv4EQX25BP-28" value="- connect: boolean&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="Ifi-HL3AOGkv4EQX25BP-26">
+          <mxGeometry y="52" width="130" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Ifi-HL3AOGkv4EQX25BP-29" value="- playing: boolean&lt;div&gt;&lt;br&gt;&lt;div&gt;-&amp;nbsp; volume: int;&lt;/div&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="Ifi-HL3AOGkv4EQX25BP-26">
+          <mxGeometry y="78" width="130" height="72" as="geometry" />
+        </mxCell>
+        <mxCell id="Ifi-HL3AOGkv4EQX25BP-30" value="&#xa;&#xa;" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="Ifi-HL3AOGkv4EQX25BP-26">
+          <mxGeometry y="150" width="130" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="Ifi-HL3AOGkv4EQX25BP-38" value="+ increaseVolume();&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="Ifi-HL3AOGkv4EQX25BP-26">
+          <mxGeometry y="260" width="130" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Ifi-HL3AOGkv4EQX25BP-37" value="&lt;div&gt;+ decreaseVolume();&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="Ifi-HL3AOGkv4EQX25BP-26">
+          <mxGeometry y="286" width="130" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Ifi-HL3AOGkv4EQX25BP-36" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="Ifi-HL3AOGkv4EQX25BP-26">
+          <mxGeometry y="312" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Ifi-HL3AOGkv4EQX25BP-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.453;entryY=0.991;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Ifi-HL3AOGkv4EQX25BP-26" target="Ifi-HL3AOGkv4EQX25BP-21">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="330" y="200" />
+              <mxPoint x="326" y="200" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ifi-HL3AOGkv4EQX25BP-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.275;entryY=1.02;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Ifi-HL3AOGkv4EQX25BP-26" target="Ifi-HL3AOGkv4EQX25BP-25">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="490" y="310" />
+              <mxPoint x="490" y="152" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ifi-HL3AOGkv4EQX25BP-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.647;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Ifi-HL3AOGkv4EQX25BP-29" target="Ifi-HL3AOGkv4EQX25BP-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
