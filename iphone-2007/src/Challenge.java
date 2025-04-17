@@ -1,6 +1,6 @@
 import Model.Iphone2007;
 
-public class challenge {
+public class Challenge {
     public static void main(String[] args) throws Exception {
         Iphone2007 iphone = new Iphone2007();
         iphone.call("912344321");
