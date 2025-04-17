@@ -1,4 +1,4 @@
-package basicOperations;
+package basicOperations.listTasks;
 
 public class Task {
 
