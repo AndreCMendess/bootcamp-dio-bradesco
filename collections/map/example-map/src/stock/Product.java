@@ -20,8 +20,16 @@ public class Product{
         return price;
     }
 
+    public void setPrice(double price) {
+        this.price = price;
+    }
+
     public int getQuantity() {
         return quantity;
+    }
+
+    public static boolean priceBigger100(Product p) {
+        return p.getPrice() > 0;
     }
 
 
