@@ -23,6 +23,8 @@ public class EstudosSpringApplication {
 
 		//o carrinho é criado duas vezes por ser prototype
 
+		orderService1.infoStore();
+
 	}
 
 }
