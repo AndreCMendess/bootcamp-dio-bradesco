@@ -1,6 +1,7 @@
 package com.springestudos.estudos_spring;
 
 import com.springestudos.estudos_spring.service.OrderService;
+import com.springestudos.estudos_spring.service.StoreService;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ApplicationContext;
@@ -24,6 +25,9 @@ public class EstudosSpringApplication {
 		//o carrinho é criado duas vezes por ser prototype
 
 		orderService1.infoStore();
+
+		StoreService storeService = ctx.getBean(StoreService.class);
+		storeService.display();
 
 	}
 
